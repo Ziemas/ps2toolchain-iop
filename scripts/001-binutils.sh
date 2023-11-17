@@ -9,7 +9,7 @@ onerr()
 trap onerr ERR
 
 ## Download the source code.
-REPO_URL="https://github.com/ps2dev/binutils-gdb.git"
+REPO_URL="https://github.com/ziemas/binutils-gdb.git"
 REPO_FOLDER="binutils-gdb"
 BRANCH_NAME="iop-v2.35.2"
 if test ! -d "$REPO_FOLDER"; then
